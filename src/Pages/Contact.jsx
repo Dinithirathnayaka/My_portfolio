@@ -36,9 +36,19 @@ function Contact() {
     <div>
       <div className="header-bar">
         {" "}
-        <Link to="/">
-          <button className="proc">Profile</button>
-        </Link>
+        <nav className="headernav">
+          <ul>
+            <li style={{ color: "#fff" }}>
+              <Link to="/">Profile</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+              <Link to="/portfolio">Portfolio</Link>
+            </li>
+          </ul>
+        </nav>
       </div>
 
       <div className="main-bar">
