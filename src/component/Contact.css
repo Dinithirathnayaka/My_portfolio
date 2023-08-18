@@ -1,0 +1,61 @@
+.form {
+  width: 100%;
+  height: auto;
+  background-color: #2d2f33;
+  margin-top: 2vh;
+  padding: 2vh;
+}
+
+.form-group {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  background-color: #2d2f33;
+}
+
+.form-group .msg {
+  background-color: #2d2f33;
+}
+
+.iconc {
+  padding: 10px;
+  background: #282a2e;
+  color: darkgrey;
+  min-width: 35px;
+  text-align: center;
+  height: 50px;
+  font-size: 3px;
+}
+
+.form-control {
+  width: 80%;
+  padding: 10px;
+  outline: none;
+  background-color: #2d2f33;
+}
+
+.btnc {
+  background-color: #e3882d;
+  margin-left: 5vw;
+  width: auto;
+  height: auto;
+  margin-top: 5vh;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.grid-container {
+  background-color: #282a2e;
+  height: 95vh;
+}
+
+@media only screen and (max-width: 500px) {
+  .boxc {
+    width: 50vh;
+  }
+}
