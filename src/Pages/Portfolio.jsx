@@ -1,12 +1,11 @@
 import React from "react";
 import image from "../images/16.jpg";
-import emailjs from "emailjs-com";
-import { FaUserAlt } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
-import { FaAt } from "react-icons/fa";
+import image1 from "../images/fashion1.png";
+import image2 from "../images/metait2.png";
+import image3 from "../images/note1.png";
+import image4 from "../images/statics1.png";
 import LeftGrid from "../component/Grid Section/LeftGrid";
 import "../component/Contact.css";
-import { IconContext } from "react-icons";
 import LeftGridNew from "../component/Grid Section/LeftGridNew";
 import { Link } from "react-router-dom";
 import "../component/Portfolio.css";
@@ -58,33 +57,78 @@ function Portfolio() {
               <h5 className="portname">Web Develpment</h5>
               <div className=" portfolio mt-3 mb-3">
                 <h6 className="indi ">Individual Projects</h6>
-                <div className="row ">
-                  <div className="port1 col-md-3 col-xs-12 p-2  mx-auto d-block">
-                    {" "}
-                    <img src={image} className="portimg " />
+
+                <div className="card-group m-3">
+                  <div className="card bg-dark m-3">
+                    <img src={image1} className="" />
+                    <div className="card-body">
+                      <p className="card-text">
+                        Mobile response website for fashion design store
+                      </p>
+                      <Link to="/portfolio/portfolio1" className="readmore">
+                        READ MORE
+                      </Link>
+                    </div>
                   </div>
-                  <div className="port2 col-md-3 col-xs-12 p-2  mx-auto d-block">
-                    {" "}
-                    <img src={image} className="portimg" />
+                  <div className="card bg-dark m-3">
+                    <img src={image2} className="" />
+                    <div className="card-body">
+                      <p className="card-text">
+                        Mobile response metait website for metait company
+                      </p>
+                      <Link to="/portfolio/portfolio2" className="readmore">
+                        READ MORE
+                      </Link>
+                    </div>
                   </div>
-                  <div className="port2 col-md-3 col-xs-12 p-2  mx-auto d-block">
-                    {" "}
-                    <img src={image} className="portimg" />
+                  <div className="card bg-dark m-3">
+                    <img src={image3} className="" />
+                    <div className="card-body">
+                      <p className="card-text">
+                        Note creating app for keep notes
+                      </p>
+                      <Link to="/portfolio/portfolio3" className="readmore">
+                        READ MORE
+                      </Link>
+                    </div>
                   </div>
                 </div>
 
-                <div className="row ">
-                  <div className="port1 col-md-3 col-xs-12 p-2  mx-auto d-block">
-                    {" "}
-                    <img src={image} className="portimg " />
+                <div className="card-group m-3">
+                  <div className="card bg-dark m-3">
+                    <img src={image4} className="" />
+                    <div className="card-body">
+                      <p className="card-text">Statictis Table</p>
+                      <Link to="/portfolio/portfolio4" className="readmore">
+                        READ MORE
+                      </Link>
+                    </div>
                   </div>
-                  <div className="port2 col-md-3 col-xs-12 p-2  mx-auto d-block">
-                    {" "}
-                    <img src={image} className="portimg" />
+                  <div className="card bg-dark m-3">
+                    <img src={image2} className="" />
+                    <div className="card-body">
+                      <p className="card-text">
+                        This card has supporting text below as a natural lead-in
+                        to additional content.
+                      </p>
+                      <Link to="/portfolio/portfolio2" className="readmore">
+                        READ MORE
+                      </Link>
+                    </div>
                   </div>
-                  <div className="port2 col-md-3 col-xs-12 p-2  mx-auto d-block">
-                    {" "}
-                    <img src={image} className="portimg" />
+                  <div className="card bg-dark m-3">
+                    <img src={image3} className="" />
+                    <div className="card-body">
+                      <p className="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This card has
+                        even longer content than the first to show that equal
+                        height action.
+                      </p>
+                      <Link to="/portfolio/portfolio3" className="readmore">
+                        READ MORE
+                      </Link>
+                    </div>
                   </div>
                 </div>
 

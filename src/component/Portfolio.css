@@ -13,6 +13,85 @@
   margin-left: 20px;
 }
 
+.port1 {
+  width: 100%;
+  height: 300px;
+  background-size: auto;
+  position: relative;
+}
+
+.port2 {
+  width: 100%;
+  height: 300px;
+  background-size: auto;
+  position: relative;
+}
+
+.portfolio_mid {
+  color: #fff;
+  z-index: 1;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  background: rgba(57, 57, 57, 0.5);
+  height: 300px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.midport {
+  width: 300px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.midport .link {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  z-index: -1;
+  display: block;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  color: #444;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+}
+.midport:hover + .link {
+  bottom: -36px;
+  opacity: 1;
+}
+
+.port2 .midport img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 30px !important;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.port2 .midport:hover img {
+  width: 350px;
+}
+
+.port2:hover .portfolio_mid {
+  color: #fff;
+  z-index: 1;
+  margin: auto;
+  text-align: center;
+  position: absolute !important;
+  background: rgba(57, 57, 57, 0.5) !important;
+  height: 300px;
+  width: 100%;
+  text-decoration: none;
+}
+
 .portimg {
   width: 20vw;
   height: 300px;
@@ -43,4 +122,48 @@
 .group {
   color: #fff;
   margin-left: 20px;
+}
+
+.readmore {
+  text-decoration: none;
+  color: #e3882d;
+  font-size: small;
+}
+
+.card {
+  border: 0.5px solid #a9a9a91c !important;
+}
+
+.card img {
+  height: 280px;
+}
+
+.card:hover img {
+  height: 290px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.card-text {
+  color: #fff;
+}
+
+/* PORTFOLIO 1 */
+
+.subport img {
+  width: 300px;
+  height: 300px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.middlesub {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.subport .middlesub:hover img {
+  width: 340px;
+  height: 340px;
 }
