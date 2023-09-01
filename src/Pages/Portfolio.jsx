@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/16.jpg";
+import image from "../images/bg-1.jpg";
 import image1 from "../images/fashion1.png";
 import image2 from "../images/metait2.png";
 import image3 from "../images/note1.png";
@@ -70,7 +70,7 @@ function Portfolio() {
 
           <div className="middle col-lg-9 col-10">
             <div className="main-image">
-              <img src={image} style={{ height: "65vh", width: "100%" }} />
+              <img src={image} style={{ height: "90vh", width: "100%" }} />
             </div>
 
             <div className="portfolio-top">

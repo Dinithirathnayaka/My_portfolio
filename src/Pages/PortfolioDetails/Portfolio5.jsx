@@ -6,7 +6,7 @@ import image4 from "../../images/chatbot4.png";
 import image5 from "../../images/chatbot5.png";
 import image6 from "../../images/chatbot6.png";
 import image7 from "../../images/chatbot7.jpg";
-import image from "../../images/mountain.jpg";
+import image from "../../images/bg-1.jpg";
 import LeftGrid from "../../component/Grid Section/LeftGrid";
 import "../../component/Portfolio.css";
 import LeftGridNew from "../../component/Grid Section/LeftGridNew";
@@ -63,7 +63,7 @@ function Portfolio5() {
 
           <div className="middle col-lg-9 col-10">
             <div className="main-image">
-              <img src={image} style={{ height: "65vh", width: "100%" }} />
+              <img src={image} style={{ height: "90vh", width: "100%" }} />
             </div>
 
             <div className="middle-top">

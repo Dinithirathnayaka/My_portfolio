@@ -8,7 +8,7 @@ import image7 from "../../images/metait7.png";
 import image8 from "../../images/metait8.png";
 import image9 from "../../images/metait9.png";
 import image10 from "../../images/metait10.png";
-import image from "../../images/mountain.jpg";
+import image from "../../images/bg-1.jpg";
 import LeftGrid from "../../component/Grid Section/LeftGrid";
 import "../../component/Portfolio.css";
 import LeftGridNew from "../../component/Grid Section/LeftGridNew";
@@ -65,7 +65,7 @@ function Portfolio2() {
 
           <div className="middle col-lg-9 col-10">
             <div className="main-image">
-              <img src={image} style={{ height: "65vh", width: "100%" }} />
+              <img src={image} style={{ height: "90vh", width: "100%" }} />
             </div>
 
             <div className="middle-top">

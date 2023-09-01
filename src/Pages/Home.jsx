@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../images/mountain.jpg";
-import facemain from "../images/face-3.png";
+import image2 from "../images/bg-2.jpg";
+import facemain from "../images/face-5.png";
 import { Link } from "react-router-dom";
 import LeftGrid from "../component/Grid Section/LeftGrid";
 import LeftGridNew from "../component/Grid Section/LeftGridNew";
@@ -58,22 +59,22 @@ function Home() {
 
           <div className="middle col-lg-9 col-10">
             <div className="main-image">
-              <img src={image} style={{ height: "60vh", width: "100%" }} />
+              <img src={image2} style={{ height: "100vh", width: "100%" }} />
             </div>
 
             <div className="middle-top">
               <div className="top-image">
                 <img
-                  src={image}
+                  src={image2}
                   alt=""
-                  style={{ height: "53vh", width: "100%" }}
+                  style={{ height: "60vh", width: "100%" }}
                 />
               </div>
               <img
                 src={facemain}
                 alt=""
                 className="main-topimage"
-                style={{ height: "65vh", width: "" }}
+                style={{ height: "60vh", width: "" }}
               />
               <h1>
                 Hello !!
@@ -110,13 +111,11 @@ function Home() {
                     Information Systems(CIS)
                   </h6>
                   <p className="small-text text-muted">Undergraduate</p>
-                  <button className="btnh text-muted">oct 2019-oct 2024</button>
+                  {/* <button className="btnh text-muted">oct 2019-oct 2024</button> */}
                   <p className="pr">
-                    The Department of Computing and Information Systems (DCIS)
-                    at the Faculty of Applied Sciences, Sabaragamuwa University
-                    of Sri Lanka was established in 2011 while the BScHons
-                    Degree Programme in Computing and Information Systems was
-                    initiated back in 2008.
+                    I am an undergraduate from the Department of Computing and
+                    Information Systems at the Faculty of Computing,
+                    Sabaragamuwa University of Sri Lanka.
                   </p>
                   {/* <a href="#" class="linkh">
                   MORE

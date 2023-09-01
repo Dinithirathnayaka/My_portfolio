@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/mountain.jpg";
+import image from "../images/bg-2.jpg";
 import emailjs from "emailjs-com";
 import { FaUserAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
@@ -82,7 +82,7 @@ function Contact() {
 
           <div className="middle col-lg-9 col-10">
             <div className="main-image">
-              <img src={image} style={{ height: "65vh", width: "100%" }} />
+              <img src={image} style={{ height: "90vh", width: "100%" }} />
             </div>
 
             <div className="middle-top">
