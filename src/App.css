@@ -38,7 +38,7 @@ body {
 }
 
 .contactbtn {
-  background-color: #e3882d;
+  background-color: #ffc107;
   text-decoration: none;
   height: 45px;
   width: 70px;
@@ -48,8 +48,9 @@ body {
 }
 
 .headernav {
+  float: right;
   display: flex !important;
-  color: #fff;
+  color: #ffc107;
   text-decoration: none !important;
 }
 
@@ -61,16 +62,17 @@ body {
 }
 
 .headernav li {
-  margin-right: 20px;
+  margin-right: 30px !important;
+  text-decoration: none;
+  color: #ffc107;
 }
-
 /*----------- -----------
 ---------Left Grid  Head---
 -------------------------*/
 
 .togclose {
   font-size: 25px;
-  color: #e3882d;
+  color: #ffc107;
   margin: 10px;
   margin-right: -280px !important;
   display: none;
@@ -85,15 +87,18 @@ body {
 
 .profile img {
   position: relative;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  margin-left: 40%;
-  transform: translate(-60%, 20%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
   margin-bottom: 5vh;
 }
 
 .profile h6 {
   position: relative;
-  color: #e3882d;
+  color: #ffc107;
   text-align: center;
   font-size: 15px;
   margin-bottom: 0px;
@@ -168,15 +173,15 @@ body {
 }
 
 .circular-chart.orange .circle {
-  stroke: #e3882d;
+  stroke: #ffc107;
 }
 
 .circular-chart.green .circle {
-  stroke: #e3882d;
+  stroke: #ffc107;
 }
 
 .circular-chart.blue .circle {
-  stroke: #e3882d;
+  stroke: #ffc107;
 }
 
 .percentage {
@@ -196,7 +201,7 @@ body {
 }
 
 .barCompleted1 {
-  background-color: #e3882d;
+  background-color: #ffc107;
   width: 85%;
   height: 5px;
   margin-left: -13px;
@@ -218,7 +223,7 @@ body {
 }
 
 .barCompleted2 {
-  background-color: #e3882d;
+  background-color: #ffc107;
   width: 80%;
   height: 5px;
   margin-left: -13px;
@@ -240,7 +245,7 @@ body {
 }
 
 .barCompleted3 {
-  background-color: #e3882d;
+  background-color: #ffc107;
   width: 80%;
   height: 5px;
   margin-left: -13px;
@@ -262,7 +267,7 @@ body {
 }
 
 .barCompleted4 {
-  background-color: #e3882d;
+  background-color: #ffc107;
   width: 75%;
   height: 5px;
   margin-left: -13px;
@@ -284,7 +289,7 @@ body {
 }
 
 .barCompleted5 {
-  background-color: #e3882d;
+  background-color: #ffc107;
   width: 90%;
   height: 5px;
   margin-left: -13px;
@@ -306,7 +311,7 @@ body {
 }
 
 .barCompleted6 {
-  background-color: #e3882d;
+  background-color: #ffc107;
   width: 80%;
   height: 5px;
   margin-left: -13px;
@@ -328,7 +333,7 @@ body {
 }
 
 .barCompleted7 {
-  background-color: #e3882d;
+  background-color: #ffc107;
   width: 75%;
   height: 5px;
   margin-left: -13px;
@@ -383,7 +388,7 @@ body {
 
 .togopen {
   font-size: 25px;
-  color: #e3882d;
+  color: #ffc107;
   margin: 10px;
   display: none;
 
@@ -444,7 +449,7 @@ body {
 .middle-top .btnm {
   width: 30vh;
   height: 8vh;
-  background-color: #e3882d;
+  background-color: #ffc107;
   position: relative;
   font-weight: bold;
   margin-left: 5vh;
@@ -497,7 +502,7 @@ body {
 }
 
 .perform .num {
-  color: #e3882d;
+  color: #ffc107;
   font-weight: 1000;
   font-size: 20px;
 }
@@ -508,7 +513,7 @@ body {
 }
 
 .subtopic {
-  color: #e3882d;
+  color: #ffc107;
   margin-bottom: 2vh;
   font-size: 18px;
   font-weight: bold;

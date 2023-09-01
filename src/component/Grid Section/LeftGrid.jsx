@@ -1,5 +1,5 @@
 import React from "react";
-import faceimg from "../../images/face-2.jpg";
+import faceimg from "../../images/face-4.jpg";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -16,7 +16,7 @@ function LeftGrid() {
         <div>
           <FaTimes className="togclose" />
         </div>
-        <img src={faceimg} alt="" style={{ height: "100px", width: "100px" }} />
+        <img src={faceimg} alt="" />
 
         <h6 className="text-cenetr">Dinithi Nayanamali Rathnayake</h6>
         <p>Web Developer </p>
@@ -60,14 +60,12 @@ function LeftGrid() {
 
                 <path
                   class="circle"
-                  stroke-dasharray="85, 100"
+                  stroke-dasharray="100, 100"
                   d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
                 />
-                <text x="18" y="20.35" class="percentage">
-                  85%
-                </text>
+                <text x="18" y="20.35" class="percentage"></text>
               </svg>
             </div>
 
@@ -82,14 +80,12 @@ function LeftGrid() {
 
                 <path
                   class="circle"
-                  stroke-dasharray="75, 100"
+                  stroke-dasharray="100, 100"
                   d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
                 />
-                <text x="18" y="20.35" class="percentage">
-                  75%
-                </text>
+                <text x="18" y="20.35" class="percentage"></text>
               </svg>
             </div>
 
@@ -103,106 +99,116 @@ function LeftGrid() {
                 />
                 <path
                   class="circle"
-                  stroke-dasharray="70, 100"
+                  stroke-dasharray="100, 100"
                   d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831"
                 />
-                <text x="18" y="20.35" class="percentage">
-                  70%
-                </text>
+                <text x="18" y="20.35" class="percentage"></text>
               </svg>
             </div>
           </div>
 
           <div className="name">
-            <p style={{ color: "#fff", marginLeft: "" }}>Flutter</p>
-            <p style={{ color: "#fff", marginRight: "" }}>.Net Core</p>
-            <p style={{ color: "#fff", marginRight: "" }}>React</p>
+            <p style={{ color: "#fff", marginLeft: "" }}>HTML</p>
+            <p style={{ color: "#fff", marginRight: "" }}>CSS</p>
+            <p style={{ color: "#fff", marginRight: "" }}>Java Script</p>
 
             {/* <p style={{ color: "#fff" }}>Spanish</p> */}
           </div>
         </div>
-        <hr style={{ color: "darkgrey" }} />
+
         <div>
-          <ProgressBar
-            completed={85}
-            className="wrapper1"
-            barContainerClassName="container1"
-            completedClassName="barCompleted1"
-            labelClassName="label1 "
-          />
-          <p className="bottomN">Java</p>
+          <div class="flex-wrapper">
+            <div class="single-chart">
+              <svg viewBox="0 0 36 36" class="circular-chart orange">
+                <path
+                  class="circle-bg"
+                  d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
 
-          <ProgressBar
-            completed={80}
-            className="wrapper2"
-            barContainerClassName="container2"
-            completedClassName="barCompleted2"
-            labelClassName="label2"
-          />
-          <p className="bottomN">Python</p>
+                <path
+                  class="circle"
+                  stroke-dasharray="100, 100"
+                  d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <text x="18" y="20.35" class="percentage"></text>
+              </svg>
+            </div>
 
-          <ProgressBar
-            completed={80}
-            className="wrapper3"
-            barContainerClassName="container3"
-            completedClassName="barCompleted3"
-            labelClassName="label3"
-          />
-          <p className="bottomN">Dart</p>
+            <div class="single-chart">
+              <svg viewBox="0 0 36 36" class="circular-chart orange">
+                <path
+                  class="circle-bg"
+                  d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
 
-          <ProgressBar
-            completed={75}
-            className="wrapper4"
-            barContainerClassName="container4"
-            completedClassName="barCompleted4"
-            labelClassName="label4"
-          />
-          <p className="bottomN">C#</p>
+                <path
+                  class="circle"
+                  stroke-dasharray="100, 100"
+                  d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <text x="18" y="20.35" class="percentage"></text>
+              </svg>
+            </div>
 
-          <ProgressBar
-            completed={90}
-            className="wrapper5"
-            barContainerClassName="container5"
-            completedClassName="barCompleted5"
-            labelClassName="label5"
-          />
-          <p className="bottomN">Html</p>
+            <div class="single-chart">
+              <svg viewBox="0 0 36 36" class="circular-chart green">
+                <path
+                  class="circle-bg"
+                  d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <path
+                  class="circle"
+                  stroke-dasharray="100, 100"
+                  d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <text x="18" y="20.35" class="percentage"></text>
+              </svg>
+            </div>
+          </div>
 
-          <ProgressBar
-            completed={80}
-            className="wrapper6"
-            barContainerClassName="container6"
-            completedClassName="barCompleted6"
-            labelClassName="label6"
-          />
-          <p className="bottomN">Css</p>
+          <div className="name">
+            <p style={{ color: "#fff", marginLeft: "" }}>React.js</p>
+            <p style={{ color: "#fff", marginRight: "" }}>Boostrap</p>
+            <p style={{ color: "#fff", marginRight: "" }}>Laravel</p>
 
-          <ProgressBar
-            completed={75}
-            className="wrapper7"
-            barContainerClassName="container7"
-            completedClassName="barCompleted7"
-            labelClassName="label7"
-          />
-          <p className="bottomN">Java Script</p>
+            {/* <p style={{ color: "#fff" }}>Spanish</p> */}
+          </div>
         </div>
+
         <hr style={{ color: "darkgrey" }} />
-        <div className="listpro text-muted" style={{ color: "darkgrey" }}>
-          <p>
+        <div className="listpro " style={{ color: "darkgrey" }}>
+          <p className="small">
             {" "}
-            <FaCheck style={{ color: "#e3882d", marginRight: "4px" }} />
-            Backend Services(MS SQL, MYSQL) Knowlwdge
+            <FaCheck style={{ color: " #FFC107", marginRight: "10px" }} />
+            Frontend Services(Html,CSS,Boostrap,Java Script,React.js) Knowledge
           </p>
-          <p>
+          <p className="small">
             {" "}
-            <FaCheck style={{ color: "#e3882d", marginRight: "4px" }} />
-            Firebase Knowledge
+            <FaCheck style={{ color: " #FFC107", marginRight: "10px" }} />
+            Backend Services(Node.js,Express.js) Knowledge
           </p>
-          <p>
+          <p className="small">
             {" "}
-            <FaCheck style={{ color: "#e3882d", marginRight: "4px" }} />
+            <FaCheck style={{ color: " #FFC107", marginRight: "10px" }} />
+            Firebase Knowledge,Mongodb Konwledge
+          </p>
+          <p className="small">
+            {" "}
+            <FaCheck style={{ color: " #FFC107", marginRight: "10px" }} />
             GIT Knowledge
           </p>
         </div>

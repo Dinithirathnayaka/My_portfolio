@@ -10,6 +10,9 @@ import Portfolio5 from "./Pages/PortfolioDetails/Portfolio5";
 import Portfolio6 from "./Pages/PortfolioDetails/Portfolio6";
 import Portfolio7 from "./Pages/PortfolioDetails/Portfolio7";
 import Portfolio8 from "./Pages/PortfolioDetails/Portfolio8";
+import Portfolio9 from "./Pages/PortfolioDetails/Portfolio9";
+import Portfolio10 from "./Pages/PortfolioDetails/Portfolio10";
+import Portfolio11 from "./Pages/PortfolioDetails/Portfolio11";
 import Dropdown from "react-bootstrap/Dropdown";
 
 import {
@@ -36,6 +39,9 @@ function App() {
           <Route path="/portfolio/portfolio6" element={<Portfolio6 />} />
           <Route path="/portfolio/portfolio7" element={<Portfolio7 />} />
           <Route path="/portfolio/portfolio8" element={<Portfolio8 />} />
+          <Route path="/portfolio/portfolio9" element={<Portfolio9 />} />
+          <Route path="/portfolio/portfolio10" element={<Portfolio10 />} />
+          <Route path="/portfolio/portfolio11" element={<Portfolio11 />} />
         </Routes>
       </Router>
     </div>

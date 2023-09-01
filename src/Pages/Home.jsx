@@ -14,13 +14,28 @@ function Home() {
         <nav className="headernav">
           <ul>
             <li style={{ color: "#fff" }}>
-              <Link to="/">Profile</Link>
+              <Link
+                to="/"
+                style={{ textDecoration: "none", color: " #FFC107" }}
+              >
+                Profile
+              </Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link
+                to="/contact"
+                style={{ textDecoration: "none", color: " #FFC107" }}
+              >
+                Contact
+              </Link>
             </li>
             <li>
-              <Link to="/portfolio">Portfolio</Link>
+              <Link
+                to="/portfolio"
+                style={{ textDecoration: "none", color: " #FFC107" }}
+              >
+                Portfolio
+              </Link>
             </li>
           </ul>
         </nav>
@@ -83,7 +98,7 @@ function Home() {
 
               <div className="row">
                 <div
-                  className=" mx-auto d-block history"
+                  className=" col-6 history"
                   style={{
                     width: "65vh",
                     padding: "30px",
@@ -107,30 +122,6 @@ function Home() {
                   MORE
                 </a> */}
                 </div>
-
-                <div
-                  className=" mx-auto d-block history"
-                  style={{
-                    width: "65vh",
-                    padding: "30px",
-                    marginBottom: "2vh",
-                  }}
-                >
-                  <h6 className="tit">
-                    ESOFT Metro Campus-Diploma in Software Engineering (DiSE)
-                  </h6>
-                  <p className="small-text text-muted">Completed</p>
-                  {/* <button className="btnh text-muted">jan 2020-jan 2021</button> */}
-                  <p className="pr">
-                    This Diploma will provide the student with hands-on
-                    knowledge in software engineering concepts, analysis,
-                    designing, project management, testing, and development with
-                    practical programming environments including java and C#.
-                  </p>
-                  <a href="#" class="linkh">
-                    MORE
-                  </a>
-                </div>
               </div>
 
               {/*---------------------------------
@@ -139,35 +130,11 @@ function Home() {
 
               <h5 className="maintopic">My Services</h5>
               <div className="row" style={{ marginBottom: "3vh" }}>
-                <div
-                  className="   mx-auto d-block hi"
-                  style={{ marginBottom: "2vh" }}
-                >
-                  <h6 className="subtopic">Mobile Development</h6>
-                  <p className="content text-muted">
-                    I can develop the mobile application with best performance
-                    and very smoothly for your organization.
-                  </p>
-                </div>
-
-                <div
-                  className="  mx-auto d-block hi "
-                  style={{ marginBottom: "2vh" }}
-                >
+                <div className="col-10 hi " style={{ marginBottom: "2vh" }}>
                   <h6 className="subtopic">Web Development</h6>
                   <p className="content text-muted">
                     I can develop the web application with best performance and
                     very smoothly for your organization.
-                  </p>
-                </div>
-                <div
-                  className=" mx-auto d-block hi "
-                  style={{ marginBottom: "2vh" }}
-                >
-                  <h6 className="subtopic">Desktop Development</h6>
-                  <p className="content text-muted">
-                    I can develop the desktop application with best performance
-                    and very smoothly for your organization.
                   </p>
                 </div>
               </div>

@@ -39,13 +39,28 @@ function Contact() {
         <nav className="headernav">
           <ul>
             <li style={{ color: "#fff" }}>
-              <Link to="/">Profile</Link>
+              <Link
+                to="/"
+                style={{ textDecoration: "none", color: " #FFC107" }}
+              >
+                Profile
+              </Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link
+                to="/contact"
+                style={{ textDecoration: "none", color: " #FFC107" }}
+              >
+                Contact
+              </Link>
             </li>
             <li>
-              <Link to="/portfolio">Portfolio</Link>
+              <Link
+                to="/portfolio"
+                style={{ textDecoration: "none", color: " #FFC107" }}
+              >
+                Portfolio
+              </Link>
             </li>
           </ul>
         </nav>
