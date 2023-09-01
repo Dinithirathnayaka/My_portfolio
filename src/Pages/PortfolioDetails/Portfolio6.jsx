@@ -1,12 +1,14 @@
 import React from "react";
-import image1 from "../../images/note1.png";
+import image1 from "../../images/janux1.png";
+import image2 from "../../images/janux2.png";
+import image3 from "../../images/janux3.png";
 import image from "../../images/mountain.jpg";
 import LeftGrid from "../../component/Grid Section/LeftGrid";
 import "../../component/Portfolio.css";
 import LeftGridNew from "../../component/Grid Section/LeftGridNew";
 import { Link } from "react-router-dom";
 
-function Portfolio3() {
+function Portfolio6() {
   return (
     <div>
       <div className="header-bar">
@@ -62,22 +64,30 @@ function Portfolio3() {
               <div>
                 <p style={{ color: "darkgray" }}>
                   Description :{" "}
-                  <span style={{ color: "#fff" }}>Create note app</span>{" "}
+                  <span style={{ color: "#fff" }}>
+                    Admin Panel for Janux Accademy
+                  </span>{" "}
                 </p>
                 <p style={{ color: "darkgray" }}>
                   Used Technologies :{" "}
                   <span style={{ color: "#fff" }}>
-                    HTML,CSS,Boostrap,javascript
+                    HTML,CSS,Boostrap,React.js
                   </span>
                 </p>
               </div>
 
               <div className="card-group m-3">
-                <div className="card bg-dark m-3">
-                  <img src={image1} className="" />
+                <div className="card-group m-3">
+                  <div className="card bg-dark m-3">
+                    <img src={image1} className="" />
+                  </div>
+                  <div className="card bg-dark m-3">
+                    <img src={image2} className="" />
+                  </div>
+                  <div className="card bg-dark m-3">
+                    <img src={image3} className="" />
+                  </div>
                 </div>
-                <div className="card bg-dark m-3"></div>
-                <div className="card bg-dark m-3"></div>
               </div>
 
               {/*---------------------------------
@@ -100,4 +110,4 @@ function Portfolio3() {
   );
 }
 
-export default Portfolio3;
+export default Portfolio6;

@@ -18,7 +18,7 @@ function LeftGrid() {
         </div>
         <img src={faceimg} alt="" style={{ height: "100px", width: "100px" }} />
 
-        <h6 className="text-cenetr">Dinithi Naynamali Rathnayake</h6>
+        <h6 className="text-cenetr">Dinithi Nayanamali Rathnayake</h6>
         <p>Web Developer </p>
         <p className="text-muted">
           {" "}

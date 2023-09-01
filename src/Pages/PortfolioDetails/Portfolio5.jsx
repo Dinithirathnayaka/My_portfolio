@@ -1,12 +1,18 @@
 import React from "react";
-import image1 from "../../images/note1.png";
+import image1 from "../../images/chatbot1.png";
+import image2 from "../../images/chatbot2.png";
+import image3 from "../../images/chatbot3.png";
+import image4 from "../../images/chatbot4.png";
+import image5 from "../../images/chatbot5.png";
+import image6 from "../../images/chatbot6.png";
+import image7 from "../../images/chatbot7.jpg";
 import image from "../../images/mountain.jpg";
 import LeftGrid from "../../component/Grid Section/LeftGrid";
 import "../../component/Portfolio.css";
 import LeftGridNew from "../../component/Grid Section/LeftGridNew";
 import { Link } from "react-router-dom";
 
-function Portfolio3() {
+function Portfolio5() {
   return (
     <div>
       <div className="header-bar">
@@ -62,12 +68,14 @@ function Portfolio3() {
               <div>
                 <p style={{ color: "darkgray" }}>
                   Description :{" "}
-                  <span style={{ color: "#fff" }}>Create note app</span>{" "}
+                  <span style={{ color: "#fff" }}>
+                    Authenticated ChatBot System
+                  </span>{" "}
                 </p>
                 <p style={{ color: "darkgray" }}>
                   Used Technologies :{" "}
                   <span style={{ color: "#fff" }}>
-                    HTML,CSS,Boostrap,javascript
+                    HTML,CSS,Boostrap,React.js,Dialog Flow
                   </span>
                 </p>
               </div>
@@ -75,6 +83,30 @@ function Portfolio3() {
               <div className="card-group m-3">
                 <div className="card bg-dark m-3">
                   <img src={image1} className="" />
+                </div>
+                <div className="card bg-dark m-3">
+                  <img src={image2} className="" />
+                </div>
+                <div className="card bg-dark m-3">
+                  <img src={image3} className="" />
+                </div>
+              </div>
+
+              <div className="card-group m-3">
+                <div className="card bg-dark m-3">
+                  <img src={image4} className="" />
+                </div>
+                <div className="card bg-dark m-3">
+                  <img src={image5} className="" />
+                </div>
+                <div className="card bg-dark m-3">
+                  <img src={image6} className="" />
+                </div>
+              </div>
+
+              <div className="card-group m-3">
+                <div className="card bg-dark m-3">
+                  <img src={image7} className="" />
                 </div>
                 <div className="card bg-dark m-3"></div>
                 <div className="card bg-dark m-3"></div>
@@ -100,4 +132,4 @@ function Portfolio3() {
   );
 }
 
-export default Portfolio3;
+export default Portfolio5;

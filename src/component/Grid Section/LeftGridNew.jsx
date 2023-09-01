@@ -23,7 +23,7 @@ function LeftGridNew() {
               style={{ height: "15vh", width: "15vh" }}
             />
 
-            <h6 className="text-cenetr">Dinithi Naynamali Rathnayake</h6>
+            <h6 className="text-cenetr">Dinithi Nayanamali Rathnayake</h6>
             <p> Web Developer </p>
             <p className="text-muted">
               {" "}

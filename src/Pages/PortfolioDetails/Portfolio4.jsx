@@ -73,20 +73,14 @@ function Portfolio4() {
                 </p>
               </div>
 
-              <div className="row" style={{ marginBottom: "40px" }}>
-                <div className="col-md-3 col-xs-12 p-2  mx-auto d-block subport">
-                  <div className="middlesub">
-                    <img src={image1} className="portimage" />
-                  </div>
+              <div className="card-group m-3">
+                <div className="card bg-dark m-3">
+                  <img src={image1} className="" />
                 </div>
-                <div className="col-md-3 col-xs-12 p-2  mx-auto d-block subport">
-                  <div className="middlesub">
-                    <img src={image2} className="portimage" />
-                  </div>
+                <div className="card bg-dark m-3">
+                  <img src={image2} className="" />
                 </div>
-                <div className="col-md-3 col-xs-12 p-2  mx-auto d-block subport">
-                  <div className="middlesub"></div>
-                </div>
+                <div className="card bg-dark m-3"></div>
               </div>
 
               {/*---------------------------------
