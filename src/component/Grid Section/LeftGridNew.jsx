@@ -1,5 +1,5 @@
 import React from "react";
-import faceimg from "../../images/face-4.jpg";
+import faceimg from "../../images/face-6.jpg";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -17,7 +17,7 @@ function LeftGridNew() {
 
         <div class="menu__box">
           <div className="profile text-center menu__item">
-            <img src={faceimg} alt="" />
+            <img src={faceimg} alt="" style={{ objectFit: "contain" }} />
 
             <h6 className="text-cenetr">Dinithi Nayanamali Rathnayake</h6>
             <p> Web Developer </p>
