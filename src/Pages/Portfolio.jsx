@@ -198,21 +198,6 @@ function Portfolio() {
                       </Link>
                     </div>
                   </div>
-                  <div className="card bg-dark m-3">
-                    <img src={image3} className="" />
-                    <div className="card-body">
-                      <p className="card-text">
-                        Note creating app for keep notes
-                      </p>
-                      <Link
-                        to="/portfolio/portfolio3"
-                        className="readmore"
-                        style={{ textDecoration: "none", color: " #FFC107" }}
-                      >
-                        READ MORE
-                      </Link>
-                    </div>
-                  </div>
                 </div>
 
                 <h5 className=" group mt-5" style={{ color: " #FFC107" }}>
@@ -282,19 +267,6 @@ function Portfolio() {
                       <p className="card-text">Workout Buddy</p>
                       <Link
                         to="/portfolio/portfolio10"
-                        className="readmore"
-                        style={{ textDecoration: "none", color: " #FFC107" }}
-                      >
-                        READ MORE
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="card bg-dark m-3">
-                    <img src={image8} className="" />
-                    <div className="card-body">
-                      <p className="card-text">SpiceCraft Admin panel</p>
-                      <Link
-                        to="/portfolio/portfolio8"
                         className="readmore"
                         style={{ textDecoration: "none", color: " #FFC107" }}
                       >

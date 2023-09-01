@@ -104,6 +104,7 @@ function Home() {
                     width: "65vh",
                     padding: "30px",
                     marginBottom: "2vh",
+                    marginLeft: "10px",
                   }}
                 >
                   <h6 className="tit">
@@ -129,7 +130,14 @@ function Home() {
 
               <h5 className="maintopic">My Services</h5>
               <div className="row" style={{ marginBottom: "3vh" }}>
-                <div className="col-10 hi " style={{ marginBottom: "2vh" }}>
+                <div
+                  className="col-10 hi "
+                  style={{
+                    marginBottom: "2vh",
+
+                    marginLeft: "10px",
+                  }}
+                >
                   <h6 className="subtopic">Web Development</h6>
                   <p className="content text-muted">
                     I can develop the web application with best performance and

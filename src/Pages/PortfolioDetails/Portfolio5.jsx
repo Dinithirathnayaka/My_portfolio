@@ -119,12 +119,10 @@ function Portfolio5() {
                 </div>
               </div>
 
-              <div className="card-group m-3">
+              <div className="card-group m-3" style={{ width: "25vw" }}>
                 <div className="card bg-dark m-3">
                   <img src={image7} className="" />
                 </div>
-                <div className="card bg-dark m-3"></div>
-                <div className="card bg-dark m-3"></div>
               </div>
 
               {/*---------------------------------

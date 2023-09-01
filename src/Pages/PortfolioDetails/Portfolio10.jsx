@@ -96,7 +96,6 @@ function Portfolio10() {
                   <div className="card bg-dark m-3">
                     <img src={image2} className="" />
                   </div>
-                  <div className="card bg-dark m-3"></div>
                 </div>
               </div>
 

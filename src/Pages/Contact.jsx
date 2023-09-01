@@ -99,6 +99,7 @@ function Contact() {
                     width: "60vh",
                     padding: "30px",
                     marginBottom: "2vh",
+                    border: "1px solid #ffc107",
                   }}
                 >
                   <div className="row">
@@ -127,6 +128,7 @@ function Contact() {
                     width: "60vh",
                     padding: "30px",
                     marginBottom: "2vh",
+                    border: "1px solid #ffc107",
                   }}
                 >
                   <div className="row">

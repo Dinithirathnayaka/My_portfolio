@@ -95,7 +95,6 @@ function Portfolio4() {
                 <div className="card bg-dark m-3">
                   <img src={image2} className="" />
                 </div>
-                <div className="card bg-dark m-3"></div>
               </div>
 
               {/*---------------------------------
@@ -104,7 +103,11 @@ function Portfolio4() {
 
               <div
                 className="main-footer"
-                style={{ color: "darkgrey ", paddingTop: "2.5vh" }}
+                style={{
+                  color: "darkgrey ",
+                  paddingTop: "2.5vh",
+                  marginTop: "100px",
+                }}
               >
                 <p style={{ paddingLeft: "3vh" }} className="dini text-muted">
                   © 2022 All rights reserved.
