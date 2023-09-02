@@ -85,13 +85,13 @@ function Portfolio8() {
               <div>
                 <p style={{ color: "darkgray" }}>
                   Description :{" "}
-                  <span style={{ color: "#fff" }}>SpiceCraft Admin panel</span>{" "}
+                  <span style={{ color: "#fff" }}>
+                    Creating an admin panel for SpiceCraft pizza website
+                  </span>{" "}
                 </p>
                 <p style={{ color: "darkgray" }}>
                   Used Technologies :{" "}
-                  <span style={{ color: "#fff" }}>
-                    HTML,CSS,Boostrap,React.js
-                  </span>
+                  <span style={{ color: "#fff" }}>Laravel,xampp server</span>
                 </p>
               </div>
 

@@ -87,12 +87,15 @@ function Portfolio2() {
                 <p style={{ color: "darkgray" }}>
                   Description :{" "}
                   <span style={{ color: "#fff" }}>
-                    Create mobile response metait web site for metait company
+                    Create mobile response metait official web site for metait
+                    company
                   </span>{" "}
                 </p>
                 <p style={{ color: "darkgray" }}>
                   Used Technologies :{" "}
-                  <span style={{ color: "#fff" }}>HTML,CSS,Boostrap</span>
+                  <span style={{ color: "#fff" }}>
+                    HTML,CSS,Boostrap,Java script
+                  </span>
                 </p>
               </div>
 

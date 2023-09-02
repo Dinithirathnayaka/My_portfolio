@@ -78,7 +78,11 @@ function Portfolio4() {
               <div>
                 <p style={{ color: "darkgray" }}>
                   Description :{" "}
-                  <span style={{ color: "#fff" }}>Statistics Table</span>{" "}
+                  <span style={{ color: "#fff" }}>
+                    The purpose of a Statistics Table is to summarize and
+                    present data in a structured format, making it easier to
+                    understand, analyze, and draw conclusions from the data.
+                  </span>{" "}
                 </p>
                 <p style={{ color: "darkgray" }}>
                   Used Technologies :{" "}

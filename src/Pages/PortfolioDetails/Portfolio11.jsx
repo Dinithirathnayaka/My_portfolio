@@ -82,12 +82,14 @@ function Portfolio10() {
               <div>
                 <p style={{ color: "darkgray" }}>
                   Description :{" "}
-                  <span style={{ color: "#fff" }}>SpiceCraft Admin panel</span>{" "}
+                  <span style={{ color: "#fff" }}>
+                    Created a website for school (Frontend-part)
+                  </span>{" "}
                 </p>
                 <p style={{ color: "darkgray" }}>
                   Used Technologies :{" "}
                   <span style={{ color: "#fff" }}>
-                    HTML,CSS,Boostrap,React.js
+                    HTML,CSS,Boostrap,Java script,Firebase
                   </span>
                 </p>
               </div>

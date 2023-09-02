@@ -77,7 +77,9 @@ function Portfolio3() {
               <div>
                 <p style={{ color: "darkgray" }}>
                   Description :{" "}
-                  <span style={{ color: "#fff" }}>Create note app</span>{" "}
+                  <span style={{ color: "#fff" }}>
+                    Created note adding website
+                  </span>{" "}
                 </p>
                 <p style={{ color: "darkgray" }}>
                   Used Technologies :{" "}

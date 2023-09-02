@@ -81,13 +81,13 @@ function Portfolio6() {
                 <p style={{ color: "darkgray" }}>
                   Description :{" "}
                   <span style={{ color: "#fff" }}>
-                    Admin Panel for Janux Accademy
+                    Creating an admin panel for Janux Academy(Frontend part)
                   </span>{" "}
                 </p>
                 <p style={{ color: "darkgray" }}>
                   Used Technologies :{" "}
                   <span style={{ color: "#fff" }}>
-                    HTML,CSS,Boostrap,React.js
+                    HTML,CSS,Boostrap,React.js,Firebase
                   </span>
                 </p>
               </div>

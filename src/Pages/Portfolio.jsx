@@ -92,9 +92,7 @@ function Portfolio() {
                       style={{ objectFit: "contain" }}
                     />
                     <div className="card-body">
-                      <p className="card-text">
-                        Mobile response website for fashion design store
-                      </p>
+                      <p className="card-text">Fashion store website</p>
                       <Link
                         to="/portfolio/portfolio1"
                         className="readmore"
@@ -112,7 +110,7 @@ function Portfolio() {
                     />
                     <div className="card-body">
                       <p className="card-text">
-                        Mobile response metait website for metait company
+                        Metait company official website
                       </p>
                       <Link
                         to="/portfolio/portfolio2"
@@ -133,9 +131,7 @@ function Portfolio() {
                       style={{ objectFit: "contain" }}
                     />
                     <div className="card-body">
-                      <p className="card-text">
-                        Note creating app for keep notes
-                      </p>
+                      <p className="card-text">Note creating app</p>
                       <Link
                         to="/portfolio/portfolio3"
                         className="readmore"
@@ -172,10 +168,7 @@ function Portfolio() {
                       style={{ objectFit: "contain" }}
                     />
                     <div className="card-body">
-                      <p className="card-text">
-                        This card has supporting text below as a natural lead-in
-                        to additional content.
-                      </p>
+                      <p className="card-text">Simple menu ordering website</p>
                     </div>
                   </div>
                   <div className="card bg-dark m-3">
@@ -185,10 +178,7 @@ function Portfolio() {
                       style={{ objectFit: "contain" }}
                     />
                     <div className="card-body">
-                      <p className="card-text">
-                        This is a wider card with supporting text below as a
-                        natural lead-in to additional content.
-                      </p>
+                      <p className="card-text">My profile</p>
                     </div>
                   </div>
                 </div>
@@ -204,7 +194,9 @@ function Portfolio() {
                       style={{ objectFit: "contain" }}
                     />
                     <div className="card-body">
-                      <p className="card-text">Authenticated ChatBot System</p>
+                      <p className="card-text">
+                        Cloud-based student information chatbot system
+                      </p>
                       <Link
                         to="/portfolio/portfolio5"
                         className="readmore"
@@ -245,7 +237,7 @@ function Portfolio() {
                     />
                     <div className="card-body">
                       <p className="card-text">
-                        Admin Panel for Janux Accademy{" "}
+                        Admin Panel for Janux Academy{" "}
                       </p>
                       <Link
                         to="/portfolio/portfolio6"
@@ -283,7 +275,9 @@ function Portfolio() {
                       style={{ objectFit: "contain" }}
                     />
                     <div className="card-body">
-                      <p className="card-text">SpiceCraft Admin panel</p>
+                      <p className="card-text">
+                        SpiceCraft website's admin panel
+                      </p>
                       <Link
                         to="/portfolio/portfolio8"
                         className="readmore"

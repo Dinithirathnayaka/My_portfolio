@@ -87,7 +87,8 @@ function Portfolio7() {
                 <p style={{ color: "darkgray" }}>
                   Description :{" "}
                   <span style={{ color: "#fff" }}>
-                    SpiceCraft pizza website
+                    Creating a SpiceCraft pizza website for pizza ordering
+                    store.
                   </span>{" "}
                 </p>
                 <p style={{ color: "darkgray" }}>

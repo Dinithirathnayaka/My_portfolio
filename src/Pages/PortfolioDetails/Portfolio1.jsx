@@ -86,7 +86,7 @@ function Portfolio1() {
                 <p style={{ color: "darkgray" }}>
                   Description :{" "}
                   <span style={{ color: "#fff" }}>
-                    Create mobile response fashion design web site
+                    Created mobile response web sie for fashion design
                   </span>{" "}
                 </p>
                 <p style={{ color: "darkgray" }}>

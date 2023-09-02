@@ -85,12 +85,15 @@ function Portfolio9() {
               <div>
                 <p style={{ color: "darkgray" }}>
                   Description :{" "}
-                  <span style={{ color: "#fff" }}>SpiceCraft Admin panel</span>{" "}
+                  <span style={{ color: "#fff" }}>
+                    Pharmacy Tracking System for easily tracking the necessary
+                    medicines for patients.
+                  </span>{" "}
                 </p>
                 <p style={{ color: "darkgray" }}>
                   Used Technologies :{" "}
                   <span style={{ color: "#fff" }}>
-                    HTML,CSS,Boostrap,React.js
+                    HTML,CSS,Boostrap,React.js,Node.js,Express .js,MongoDb
                   </span>
                 </p>
               </div>

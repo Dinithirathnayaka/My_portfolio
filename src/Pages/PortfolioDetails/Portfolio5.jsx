@@ -84,13 +84,14 @@ function Portfolio5() {
                 <p style={{ color: "darkgray" }}>
                   Description :{" "}
                   <span style={{ color: "#fff" }}>
-                    Authenticated ChatBot System
+                    Created a cloud-based student information chatbot system
+                    that makes information access easier for student safety.
                   </span>{" "}
                 </p>
                 <p style={{ color: "darkgray" }}>
                   Used Technologies :{" "}
                   <span style={{ color: "#fff" }}>
-                    HTML,CSS,Boostrap,React.js,Dialog Flow
+                    HTML,CSS,Boostrap,React.js,Dialog Flow,Firebase
                   </span>
                 </p>
               </div>
