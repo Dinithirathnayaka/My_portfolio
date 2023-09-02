@@ -86,7 +86,11 @@ function Portfolio() {
 
                 <div className="card-group m-3">
                   <div className="card bg-dark m-3">
-                    <img src={image1} className="" />
+                    <img
+                      src={image1}
+                      className=""
+                      style={{ objectFit: "contain" }}
+                    />
                     <div className="card-body">
                       <p className="card-text">
                         Mobile response website for fashion design store
@@ -101,7 +105,11 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className="card bg-dark m-3">
-                    <img src={image2} className="" />
+                    <img
+                      src={image2}
+                      className=""
+                      style={{ objectFit: "contain" }}
+                    />
                     <div className="card-body">
                       <p className="card-text">
                         Mobile response metait website for metait company
@@ -115,8 +123,15 @@ function Portfolio() {
                       </Link>
                     </div>
                   </div>
+                </div>
+
+                <div className="card-group m-3">
                   <div className="card bg-dark m-3">
-                    <img src={image3} className="" />
+                    <img
+                      src={image3}
+                      className=""
+                      style={{ objectFit: "contain" }}
+                    />
                     <div className="card-body">
                       <p className="card-text">
                         Note creating app for keep notes
@@ -130,11 +145,12 @@ function Portfolio() {
                       </Link>
                     </div>
                   </div>
-                </div>
-
-                <div className="card-group m-3">
                   <div className="card bg-dark m-3">
-                    <img src={image4} className="" />
+                    <img
+                      src={image4}
+                      className=""
+                      style={{ objectFit: "contain" }}
+                    />
                     <div className="card-body">
                       <p className="card-text">Statictis Table</p>
                       <Link
@@ -146,8 +162,15 @@ function Portfolio() {
                       </Link>
                     </div>
                   </div>
+                </div>
+
+                <div className="card-group m-3">
                   <div className="card bg-dark m-3">
-                    <img src={image11} className="" />
+                    <img
+                      src={image11}
+                      className=""
+                      style={{ objectFit: "contain" }}
+                    />
                     <div className="card-body">
                       <p className="card-text">
                         This card has supporting text below as a natural lead-in
@@ -156,13 +179,15 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className="card bg-dark m-3">
-                    <img src={image12} className="" />
+                    <img
+                      src={image12}
+                      className=""
+                      style={{ objectFit: "contain" }}
+                    />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
-                        natural lead-in to additional content. This card has
-                        even longer content than the first to show that equal
-                        height action.
+                        natural lead-in to additional content.
                       </p>
                     </div>
                   </div>
@@ -173,7 +198,11 @@ function Portfolio() {
                 </h5>
                 <div className="card-group m-3">
                   <div className="card bg-dark m-3">
-                    <img src={image5} className="" />
+                    <img
+                      src={image5}
+                      className=""
+                      style={{ objectFit: "contain" }}
+                    />
                     <div className="card-body">
                       <p className="card-text">Authenticated ChatBot System</p>
                       <Link
@@ -186,7 +215,11 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className="card bg-dark m-3">
-                    <img src={image13} className="" />
+                    <img
+                      src={image13}
+                      className=""
+                      style={{ objectFit: "contain" }}
+                    />
                     <div className="card-body">
                       <p className="card-text">School Website</p>
                       <Link
@@ -205,7 +238,11 @@ function Portfolio() {
                 </h5>
                 <div className="card-group m-3">
                   <div className="card bg-dark m-3">
-                    <img src={image6} className="" />
+                    <img
+                      src={image6}
+                      className=""
+                      style={{ objectFit: "contain" }}
+                    />
                     <div className="card-body">
                       <p className="card-text">
                         Admin Panel for Janux Accademy{" "}
@@ -220,7 +257,11 @@ function Portfolio() {
                     </div>
                   </div>
                   <div className="card bg-dark m-3">
-                    <img src={image7} className="" />
+                    <img
+                      src={image7}
+                      className=""
+                      style={{ objectFit: "contain" }}
+                    />
                     <div className="card-body">
                       <p className="card-text">SpiceCraft pizza website</p>
                       <Link
@@ -232,8 +273,15 @@ function Portfolio() {
                       </Link>
                     </div>
                   </div>
+                </div>
+
+                <div className="card-group m-3">
                   <div className="card bg-dark m-3">
-                    <img src={image8} className="" />
+                    <img
+                      src={image8}
+                      className=""
+                      style={{ objectFit: "contain" }}
+                    />
                     <div className="card-body">
                       <p className="card-text">SpiceCraft Admin panel</p>
                       <Link
@@ -245,11 +293,12 @@ function Portfolio() {
                       </Link>
                     </div>
                   </div>
-                </div>
-
-                <div className="card-group m-3">
                   <div className="card bg-dark m-3">
-                    <img src={image9} className="" />
+                    <img
+                      src={image9}
+                      className=""
+                      style={{ objectFit: "contain" }}
+                    />
                     <div className="card-body">
                       <p className="card-text">Pharmacy Tracking System</p>
                       <Link
@@ -261,18 +310,23 @@ function Portfolio() {
                       </Link>
                     </div>
                   </div>
-                  <div className="card bg-dark m-3">
-                    <img src={image10} className="" />
-                    <div className="card-body">
-                      <p className="card-text">Workout Buddy</p>
-                      <Link
-                        to="/portfolio/portfolio10"
-                        className="readmore"
-                        style={{ textDecoration: "none", color: " #FFC107" }}
-                      >
-                        READ MORE
-                      </Link>
-                    </div>
+                </div>
+
+                <div className="card bg-dark m-3" style={{ width: "auto" }}>
+                  <img
+                    src={image10}
+                    className=""
+                    style={{ objectFit: "contain" }}
+                  />
+                  <div className="card-body text-center">
+                    <p className="card-text">Workout Buddy</p>
+                    <Link
+                      to="/portfolio/portfolio10"
+                      className="readmore"
+                      style={{ textDecoration: "none", color: " #FFC107" }}
+                    >
+                      READ MORE
+                    </Link>
                   </div>
                 </div>
               </div>

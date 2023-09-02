@@ -93,29 +93,53 @@ function Portfolio10() {
               </div>
 
               <div className="card-group m-3">
-                <div className="card-group m-3">
-                  <div className="card bg-dark m-3">
-                    <img src={image1} className="" />
-                  </div>
-                  <div className="card bg-dark m-3">
-                    <img src={image2} className="" />
-                  </div>
-                  <div className="card bg-dark m-3">
-                    <img src={image3} className="" />
-                  </div>
+                <div className="card bg-dark m-3">
+                  <img
+                    src={image1}
+                    className=""
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+                <div className="card bg-dark m-3">
+                  <img
+                    src={image2}
+                    className=""
+                    style={{ objectFit: "contain" }}
+                  />
                 </div>
               </div>
+
               <div className="card-group m-3">
-                <div className="card-group m-3">
-                  <div className="card bg-dark m-3">
-                    <img src={image4} className="" />
-                  </div>
-                  <div className="card bg-dark m-3">
-                    <img src={image5} className="" />
-                  </div>
-                  <div className="card bg-dark m-3">
-                    <img src={image6} className="" />
-                  </div>
+                <div className="card bg-dark m-3">
+                  <img
+                    src={image3}
+                    className=""
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+                <div className="card bg-dark m-3">
+                  <img
+                    src={image4}
+                    className=""
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+              </div>
+
+              <div className="card-group m-3">
+                <div className="card bg-dark m-3">
+                  <img
+                    src={image5}
+                    className=""
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+                <div className="card m-3">
+                  <img
+                    src={image6}
+                    className=""
+                    style={{ objectFit: "contain" }}
+                  />
                 </div>
               </div>
 

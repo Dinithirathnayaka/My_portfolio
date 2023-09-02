@@ -75,6 +75,7 @@
   margin-bottom: 30px !important;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  object-fit: contain;
 }
 .port2 .midport:hover img {
   width: 350px;

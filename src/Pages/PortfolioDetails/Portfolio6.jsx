@@ -2,6 +2,7 @@ import React from "react";
 import image1 from "../../images/janux1.png";
 import image2 from "../../images/janux2.png";
 import image3 from "../../images/janux3.png";
+import image4 from "../../images/janux4.png";
 import image from "../../images/bg-1.jpg";
 import LeftGrid from "../../component/Grid Section/LeftGrid";
 import "../../component/Portfolio.css";
@@ -92,16 +93,36 @@ function Portfolio6() {
               </div>
 
               <div className="card-group m-3">
-                <div className="card-group m-3">
-                  <div className="card bg-dark m-3">
-                    <img src={image1} className="" />
-                  </div>
-                  <div className="card bg-dark m-3">
-                    <img src={image2} className="" />
-                  </div>
-                  <div className="card bg-dark m-3">
-                    <img src={image3} className="" />
-                  </div>
+                <div className="card bg-dark m-3">
+                  <img
+                    src={image4}
+                    className=""
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+                <div className="card bg-dark m-3">
+                  <img
+                    src={image1}
+                    className=""
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+              </div>
+
+              <div className="card-group m-3">
+                <div className="card bg-dark m-3">
+                  <img
+                    src={image2}
+                    className=""
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+                <div className="card bg-dark m-3">
+                  <img
+                    src={image3}
+                    className=""
+                    style={{ objectFit: "contain" }}
+                  />
                 </div>
               </div>
 
