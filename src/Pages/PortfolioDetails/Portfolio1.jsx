@@ -164,14 +164,6 @@ function Portfolio1() {
                 </div>
               </div>
 
-              <div className="card  m-3" style={{ background: "transparent" }}>
-                <img
-                  src={image9}
-                  className=""
-                  style={{ objectFit: "contain" }}
-                />
-              </div>
-
               {/*---------------------------------
              -----Footer Section-------- 
              -----------------------------------*/}

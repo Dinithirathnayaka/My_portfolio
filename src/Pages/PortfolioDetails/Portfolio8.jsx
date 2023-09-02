@@ -160,12 +160,18 @@ function Portfolio8() {
                 </div>
               </div>
 
-              <div className="card  m-3" style={{ background: "transparent" }}>
-                <img
-                  src={image8}
-                  className=""
-                  style={{ objectFit: "contain" }}
-                />
+              <div className="card-group m-3">
+                <div className="card bg-dark m-3">
+                  <img
+                    src={image8}
+                    className=""
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+                <div
+                  className="card  m-3"
+                  style={{ background: "transparent" }}
+                ></div>
               </div>
 
               {/*---------------------------------

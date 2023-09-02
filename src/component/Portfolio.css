@@ -135,15 +135,11 @@
   border: 0.5px solid #a9a9a91c !important;
 }
 
-.card img {
-  height: 280px;
+/* .card img {
 }
 
-.card:hover img {
-  height: 290px;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
+.card:hover img { */
+/* } */
 
 .card-text {
   color: #fff;

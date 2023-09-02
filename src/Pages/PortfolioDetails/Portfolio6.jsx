@@ -132,7 +132,7 @@ function Portfolio6() {
 
               <div
                 className="main-footer"
-                style={{ color: "darkgrey ", paddingTop: "2.5vh" }}
+                style={{ color: "darkgrey ", paddingTop: "3.5vh" }}
               >
                 <p style={{ paddingLeft: "3vh" }} className="dini text-muted">
                   © 2022 All rights reserved.
