@@ -104,7 +104,7 @@ function LeftGridNew() {
 
               <div className="name">
                 <p style={{ color: "#fff", marginLeft: "" }}>React.js</p>
-                <p style={{ color: "#fff", marginLeft: "-50px" }}>Boostrap</p>
+                <p style={{ color: "#fff", marginLeft: "-50px" }}>Bootstrap</p>
                 <p style={{ color: "#fff", marginLeft: "-30px" }}>Laravel</p>
 
                 {/* <p style={{ color: "#fff" }}>Spanish</p> */}
@@ -116,7 +116,7 @@ function LeftGridNew() {
               <p className="small">
                 {" "}
                 <FaCheck style={{ color: " #FFC107", marginRight: "10px" }} />
-                Frontend Services(Html,CSS,Boostrap,Java Script,React.js)
+                Frontend Services(Html,CSS,Bootstrap,Java Script,React.js)
                 Knowledge
               </p>
               <p className="small">
@@ -127,7 +127,7 @@ function LeftGridNew() {
               <p className="small">
                 {" "}
                 <FaCheck style={{ color: " #FFC107", marginRight: "10px" }} />
-                Firebase Knowledge,Mongodb Konwledge
+                Firebase Knowledge,MongoDB Knowledge
               </p>
               <p className="small">
                 {" "}

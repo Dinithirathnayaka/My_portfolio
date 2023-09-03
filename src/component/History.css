@@ -1,5 +1,30 @@
+.mainhistory {
+  justify-content: space-between !important;
+  padding: 30px;
+}
+
+.maintopic {
+  padding-left: 30px;
+}
+
 .history {
   background-color: #2d2f33;
+  width: 35vw !important;
+  justify-content: space-between;
+  padding: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+}
+
+.hi {
+  background-color: #2d2f33;
+  width: 35vw !important;
+  justify-content: space-between;
+  padding: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 20px;
 }
 
 .tit {
@@ -28,4 +53,44 @@
   color: #ffc107;
   font-size: 13px;
   text-decoration: none;
+}
+
+.lefthistory {
+  padding: 0px;
+}
+
+.lefthistorynew {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .lefthistory .togclose {
+    display: block;
+  }
+
+  .middle {
+    width: 200%;
+  }
+
+  .middle .togopen {
+    display: block;
+  }
+
+  .lefthistory {
+    display: none !important;
+  }
+
+  .lefthistorynew {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .history {
+    width: 90vw !important;
+  }
+
+  .hi {
+    width: 90vw !important;
+  }
 }

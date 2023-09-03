@@ -49,7 +49,7 @@ function Home() {
              -----------------------------------*/}
 
           <div className=" col-lg-3 col-1">
-            <div className="left ">
+            <div className="lefthistory ">
               <LeftGrid />
             </div>
             <div className="leftnew">
@@ -97,30 +97,42 @@ function Home() {
 
               <h5 className="maintopic">Education</h5>
 
-              <div className="row">
-                <div
-                  className=" col-6 history"
-                  style={{
-                    width: "65vh",
-                    padding: "30px",
-                    marginBottom: "2vh",
-                    marginLeft: "10px",
-                  }}
-                >
+              <div className="row mainhistory">
+                <div className=" col-md-6 col-xs-12 history">
                   <h6 className="tit">
                     Sabaragamuwa University Of Sri Lanka-Computing And
                     Information Systems(CIS)
                   </h6>
                   <p className="small-text text-muted">Undergraduate</p>
-                  {/* <button className="btnh text-muted">oct 2019-oct 2024</button> */}
+
                   <p className="pr">
                     I am an undergraduate from the Department of Computing and
                     Information Systems at the Faculty of Computing,
                     Sabaragamuwa University of Sri Lanka.
                   </p>
-                  {/* <a href="#" class="linkh">
-                  MORE
-                </a> */}
+                </div>
+
+                <div className=" col-md-6 col-xs-12  history">
+                  <h6 className="tit mb-3">
+                    Sabaragamuwa University Of Sri Lanka-CODL <br />
+                    Certificate Course in English
+                  </h6>
+                  <p
+                    className="small-text text-center mt-1"
+                    style={{
+                      backgroundColor: "#ffc107",
+                      width: "100px",
+                      borderRadius: "20px",
+                    }}
+                  >
+                    Completed
+                  </p>
+                  <button className="btnh">October 2018-April 2019</button>
+                  <p className="pr">
+                    I completed a Certificate Course in English at the Center
+                    for Open and Distance Learning (CODL), Sabaragamuwa
+                    University of Sri Lanka.
+                  </p>
                 </div>
               </div>
 
@@ -129,15 +141,8 @@ function Home() {
              -----------------------------------*/}
 
               <h5 className="maintopic">My Services</h5>
-              <div className="row" style={{ marginBottom: "3vh" }}>
-                <div
-                  className="col-10 hi "
-                  style={{
-                    marginBottom: "2vh",
-
-                    marginLeft: "10px",
-                  }}
-                >
+              <div className="row" style={{ padding: "30px" }}>
+                <div className="col-md-4 col-xs-12 hi ">
                   <h6 className="subtopic">Web Development</h6>
                   <p className="content text-muted">
                     I can develop the web application with best performance and

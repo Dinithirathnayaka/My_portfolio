@@ -103,7 +103,7 @@ function LeftGrid() {
 
           <div className="name">
             <p style={{ color: "#fff", marginLeft: "" }}>React.js</p>
-            <p style={{ color: "#fff", marginLeft: "-50px" }}>Boostrap</p>
+            <p style={{ color: "#fff", marginLeft: "-50px" }}>Bootstrap</p>
             <p style={{ color: "#fff", marginLeft: "-30px" }}>Laravel</p>
 
             {/* <p style={{ color: "#fff" }}>Spanish</p> */}
@@ -115,7 +115,7 @@ function LeftGrid() {
           <p className="small">
             {" "}
             <FaCheck style={{ color: " #FFC107", marginRight: "10px" }} />
-            Frontend Services(Html,CSS,Boostrap,Java Script,React.js) Knowledge
+            Frontend Services(Html,CSS,Bootstrap,Java Script,React.js) Knowledge
           </p>
           <p className="small">
             {" "}
@@ -125,7 +125,7 @@ function LeftGrid() {
           <p className="small">
             {" "}
             <FaCheck style={{ color: " #FFC107", marginRight: "10px" }} />
-            Firebase Knowledge,Mongodb Konwledge
+            Firebase Knowledge,Mongodb Knowledge
           </p>
           <p className="small">
             {" "}
