@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import image from "../images/bg-2.jpg";
 import emailjs from "emailjs-com";
 import { FaUserAlt } from "react-icons/fa";
@@ -11,25 +11,45 @@ import LeftGridNew from "../component/Grid Section/LeftGridNew";
 import { Link } from "react-router-dom";
 
 function Contact() {
+  const form = useRef();
+
   function sendEmail(e) {
     e.preventDefault();
+
     emailjs
       .sendForm(
-        "service_nqofntv",
-        "template_eygzp4s",
-        e.target,
-        "ftEJaWAOJijuRDJon"
+        "service_osvo7ri",
+        "template_5pz0fw8",
+        form.current,
+        "3KqiOVEydz1heFUNA"
       )
       .then(
         (result) => {
-          alert("Message sent successfully");
+          console.log(result.text);
         },
         (error) => {
-          alert("Error sending message");
+          console.log(error.text);
         }
       );
 
     e.target.reset();
+
+    // e.preventDefault();
+    // emailjs
+    //   .sendForm(
+    //     "service_osvo7ri",
+    //     "template_eygzp4s",
+    //     e.target,
+    //     "ftEJaWAOJijuRDJon"
+    //   )
+    //   .then((result) => {
+    //     alert("Message sent successfully");
+    //     e.target.reset(); // Reset the form after a successful submission
+    //   })
+    //   .catch((error) => {
+    //     console.error("Error sending message:", error);
+    //     alert("Error sending message: " + error.text);
+    //   });
   }
 
   return (
@@ -167,7 +187,7 @@ function Contact() {
 
               <div className="form">
                 <IconContext.Provider value={{ fontsize: "5px" }}>
-                  <form className="form" onSubmit={sendEmail}>
+                  <form ref={form} className="form" onSubmit={sendEmail}>
                     <div className="form-group">
                       <FaUserAlt className="iconc" />
                       <input type="hidden" name="contact_number" />
