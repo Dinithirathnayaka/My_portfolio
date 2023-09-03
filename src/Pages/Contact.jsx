@@ -15,8 +15,8 @@ function Contact() {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_vft0m9x",
-        "template_lk73kot",
+        "service_nqofntv",
+        "template_eygzp4s",
         e.target,
         "ftEJaWAOJijuRDJon"
       )
@@ -28,7 +28,7 @@ function Contact() {
           alert("Error sending message");
         }
       );
-    //clears the form after sending the email
+
     e.target.reset();
   }
 
