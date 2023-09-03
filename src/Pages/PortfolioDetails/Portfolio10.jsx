@@ -85,7 +85,7 @@ function Portfolio10() {
                 <p style={{ color: "darkgray" }}>
                   Used Technologies :{" "}
                   <span style={{ color: "#fff" }}>
-                    HTML,CSS,Boostrap,React.js,Node.js,Express .js,MongoDb
+                    HTML,CSS,Bootstrap,React.js,Node.js,Express .js,MongoDb
                   </span>
                 </p>
               </div>

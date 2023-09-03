@@ -93,7 +93,9 @@ function Portfolio7() {
                 </p>
                 <p style={{ color: "darkgray" }}>
                   Used Technologies :{" "}
-                  <span style={{ color: "#fff" }}>Laravel,xampp server</span>
+                  <span style={{ color: "#fff" }}>
+                    Laravel,HTML,CSS,Bootstrap,Java Script,MySQL
+                  </span>
                 </p>
               </div>
 

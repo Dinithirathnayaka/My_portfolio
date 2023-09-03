@@ -87,7 +87,7 @@ function Portfolio4() {
                 <p style={{ color: "darkgray" }}>
                   Used Technologies :{" "}
                   <span style={{ color: "#fff" }}>
-                    HTML,CSS,Boostrap,javascript
+                    HTML,CSS,Bootstrap,javascript
                   </span>
                 </p>
               </div>

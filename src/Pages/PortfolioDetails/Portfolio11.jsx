@@ -89,7 +89,7 @@ function Portfolio10() {
                 <p style={{ color: "darkgray" }}>
                   Used Technologies :{" "}
                   <span style={{ color: "#fff" }}>
-                    HTML,CSS,Boostrap,Java script,Firebase
+                    HTML,CSS,Bootstrap,Java script,Firebase
                   </span>
                 </p>
               </div>
