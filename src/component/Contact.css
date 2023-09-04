@@ -6,6 +6,16 @@
   padding: 2vh;
 }
 
+.form input:focus {
+  background-color: #2d2f33;
+  color: #fff;
+}
+
+.form textarea:focus {
+  background-color: #2d2f33;
+  color: #fff;
+}
+
 .form-group {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -15,10 +25,12 @@
 
 .form-group input {
   background-color: #2d2f33;
+  color: #fff;
 }
 
 .form-group .msg {
   background-color: #2d2f33;
+  color: #fff;
 }
 
 .iconc {
@@ -54,8 +66,26 @@
   height: 95vh;
 }
 
+.boxc {
+  background-color: #2d2f33;
+  width: 35vw !important;
+  justify-content: space-between;
+  padding: 40px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  margin-bottom: 20px;
+  border: 0.5px solid darkgray;
+}
+
 @media only screen and (max-width: 500px) {
   .boxc {
-    width: 50vh;
+    width: 90% !important;
+  }
+
+  .btnc {
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

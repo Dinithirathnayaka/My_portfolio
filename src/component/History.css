@@ -93,4 +93,8 @@
   .hi {
     width: 90vw !important;
   }
+
+  .myname {
+    font-size: 40px !important;
+  }
 }

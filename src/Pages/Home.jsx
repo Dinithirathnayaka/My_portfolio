@@ -76,7 +76,7 @@ function Home() {
                 className="main-topimage"
                 style={{ height: "60vh", width: "" }}
               />
-              <h1>
+              <h1 className="myname">
                 Hello !!
                 <br />
                 I'm Dinithi Rathnayake,
@@ -145,8 +145,9 @@ function Home() {
                 <div className="col-md-4 col-xs-12 hi ">
                   <h6 className="subtopic">Web Development</h6>
                   <p className="content text-muted">
-                    I can develop the web application with best performance and
-                    very smoothly for your organization.
+                    I'm a skilled Full-Stack Developer in MERN stack and PHP
+                    Laravel. Explore my portfolio to see my work in building
+                    dynamic web applications using cutting-edge technologies.
                   </p>
                 </div>
               </div>

@@ -41,7 +41,6 @@ function LeftGridNew() {
               <div className="col-6">
                 <p>Recidence:</p>
                 <p>City:</p>
-                <p>Age:</p>
               </div>
               <div
                 className="col-6 text-muted text-end"
@@ -49,7 +48,6 @@ function LeftGridNew() {
               >
                 <p>Sri Lanka</p>
                 <p>Bandarawela</p>
-                <p>25</p>
               </div>
             </div>
             <hr style={{ color: "darkgrey" }} />

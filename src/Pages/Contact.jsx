@@ -35,23 +35,6 @@ function Contact() {
       );
 
     e.target.reset();
-
-    // e.preventDefault();
-    // emailjs
-    //   .sendForm(
-    //     "service_osvo7ri",
-    //     "template_eygzp4s",
-    //     e.target,
-    //     "ftEJaWAOJijuRDJon"
-    //   )
-    //   .then((result) => {
-    //     alert("Message sent successfully");
-    //     e.target.reset(); // Reset the form after a successful submission
-    //   })
-    //   .catch((error) => {
-    //     console.error("Error sending message:", error);
-    //     alert("Error sending message: " + error.text);
-    //   });
   }
 
   return (
@@ -114,16 +97,7 @@ function Contact() {
 
               <div className="row contact">
                 <h5 className="maintopic">Contact Information</h5>
-                <div
-                  className="col-6 mx-auto d-block boxc"
-                  style={{
-                    backgroundColor: "#2d2f33",
-                    width: "60vh",
-                    padding: "30px",
-                    marginBottom: "2vh",
-                    border: "1px solid #ffc107",
-                  }}
-                >
+                <div className="col-6 mx-auto d-block boxc">
                   <div className="row">
                     <div className="col-6">
                       <p style={{ color: "#fff" }}>Country:</p>
@@ -131,28 +105,19 @@ function Contact() {
                       <p style={{ color: "#fff" }}> Street:</p>
                     </div>
                     <div className="col-6">
-                      <p className="text-muted" style={{ marginLeft: "6vh" }}>
+                      <p className="text-muted" style={{ marginLeft: "40%" }}>
                         Sri Lanka
                       </p>
-                      <p className="text-muted" style={{ marginLeft: "6vh" }}>
+                      <p className="text-muted" style={{ marginLeft: "40%" }}>
                         Bandarawela
                       </p>
-                      <p className="text-muted" style={{ marginLeft: "6vh" }}>
+                      <p className="text-muted" style={{ marginLeft: "40%" }}>
                         Neluwa
                       </p>
                     </div>
                   </div>
                 </div>
-                <div
-                  className="col-6 mx-auto d-block boxc"
-                  style={{
-                    backgroundColor: "#2d2f33",
-                    width: "60vh",
-                    padding: "30px",
-                    marginBottom: "2vh",
-                    border: "1px solid #ffc107",
-                  }}
-                >
+                <div className="col-6 mx-auto d-block boxc">
                   <div className="row">
                     <div className="col-6">
                       <p style={{ color: "#fff" }}>Email:</p>
@@ -160,13 +125,13 @@ function Contact() {
                       <p style={{ color: "#fff" }}>Whatsapp:</p>
                     </div>
                     <div className="col-6">
-                      <p className="text-muted" style={{ marginLeft: "-13vh" }}>
+                      <p className="text-muted">
                         dinithinayanamali98@gmail.com
                       </p>
-                      <p className="text-muted" style={{ marginLeft: "6vh" }}>
+                      <p className="text-muted" style={{ marginLeft: "40%" }}>
                         071 *******
                       </p>
-                      <p className="text-muted" style={{ marginLeft: "6vh" }}>
+                      <p className="text-muted" style={{ marginLeft: "40%" }}>
                         071 *******
                       </p>
                     </div>
