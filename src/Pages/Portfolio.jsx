@@ -84,8 +84,8 @@ function Portfolio() {
                   Individual Projects
                 </h5>
 
-                <div className="card-group m-3">
-                  <div className="card bg-dark m-3">
+                <div className="card-group ">
+                  <div className="card bg-dark">
                     <img
                       src={image1}
                       className=""
@@ -102,7 +102,7 @@ function Portfolio() {
                       </Link>
                     </div>
                   </div>
-                  <div className="card bg-dark m-3">
+                  <div className="card bg-dark ">
                     <img
                       src={image2}
                       className=""
@@ -123,8 +123,8 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="card-group m-3">
-                  <div className="card bg-dark m-3">
+                <div className="card-group ">
+                  <div className="card bg-dark ">
                     <img
                       src={image3}
                       className=""
@@ -141,7 +141,7 @@ function Portfolio() {
                       </Link>
                     </div>
                   </div>
-                  <div className="card bg-dark m-3">
+                  <div className="card bg-dark">
                     <img
                       src={image4}
                       className=""
@@ -160,8 +160,8 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="card-group m-3">
-                  <div className="card bg-dark m-3">
+                <div className="card-group ">
+                  <div className="card bg-dark ">
                     <img
                       src={image11}
                       className=""
@@ -171,7 +171,7 @@ function Portfolio() {
                       <p className="card-text">Simple menu ordering website</p>
                     </div>
                   </div>
-                  <div className="card bg-dark m-3">
+                  <div className="card bg-dark ">
                     <img
                       src={image12}
                       className=""
@@ -186,8 +186,8 @@ function Portfolio() {
                 <h5 className=" group mt-5" style={{ color: " #FFC107" }}>
                   Group Projects
                 </h5>
-                <div className="card-group m-3">
-                  <div className="card bg-dark m-3">
+                <div className="card-group ">
+                  <div className="card bg-dark ">
                     <img
                       src={image5}
                       className=""
@@ -206,7 +206,7 @@ function Portfolio() {
                       </Link>
                     </div>
                   </div>
-                  <div className="card bg-dark m-3">
+                  <div className="card bg-dark ">
                     <img
                       src={image13}
                       className=""
@@ -228,8 +228,8 @@ function Portfolio() {
                 <h5 className=" group mt-5" style={{ color: " #FFC107" }}>
                   Developing Projects
                 </h5>
-                <div className="card-group m-3">
-                  <div className="card bg-dark m-3">
+                <div className="card-group ">
+                  <div className="card bg-dark ">
                     <img
                       src={image6}
                       className=""
@@ -248,7 +248,7 @@ function Portfolio() {
                       </Link>
                     </div>
                   </div>
-                  <div className="card bg-dark m-3">
+                  <div className="card bg-dark ">
                     <img
                       src={image7}
                       className=""
@@ -267,8 +267,8 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="card-group m-3">
-                  <div className="card bg-dark m-3">
+                <div className="card-group ">
+                  <div className="card bg-dark ">
                     <img
                       src={image8}
                       className=""
@@ -287,7 +287,7 @@ function Portfolio() {
                       </Link>
                     </div>
                   </div>
-                  <div className="card bg-dark m-3">
+                  <div className="card bg-dark ">
                     <img
                       src={image9}
                       className=""
@@ -306,8 +306,8 @@ function Portfolio() {
                   </div>
                 </div>
 
-                <div className="card-group m-3">
-                  <div className="card bg-dark m-3" style={{ width: "auto" }}>
+                <div className="card-group ">
+                  <div className="card bg-dark " style={{ width: "auto" }}>
                     <img
                       src={image10}
                       className=""
@@ -325,7 +325,7 @@ function Portfolio() {
                     </div>
                   </div>
                   <div
-                    className="card  m-3"
+                    className="card "
                     style={{ background: "transparent", outline: "none" }}
                   ></div>
                 </div>

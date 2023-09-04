@@ -92,15 +92,15 @@ function Portfolio6() {
                 </p>
               </div>
 
-              <div className="card-group m-3">
-                <div className="card bg-dark m-3">
+              <div className="card-group ">
+                <div className="card bg-dark ">
                   <img
                     src={image4}
                     className=""
                     style={{ objectFit: "contain" }}
                   />
                 </div>
-                <div className="card bg-dark m-3">
+                <div className="card bg-dark ">
                   <img
                     src={image1}
                     className=""
@@ -109,15 +109,15 @@ function Portfolio6() {
                 </div>
               </div>
 
-              <div className="card-group m-3">
-                <div className="card bg-dark m-3">
+              <div className="card-group ">
+                <div className="card bg-dark ">
                   <img
                     src={image2}
                     className=""
                     style={{ objectFit: "contain" }}
                   />
                 </div>
-                <div className="card bg-dark m-3">
+                <div className="card bg-dark ">
                   <img
                     src={image3}
                     className=""

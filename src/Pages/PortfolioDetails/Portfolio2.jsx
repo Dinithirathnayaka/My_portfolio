@@ -99,15 +99,15 @@ function Portfolio2() {
                 </p>
               </div>
 
-              <div className="card-group m-3">
-                <div className="card bg-dark m-3">
+              <div className="card-group ">
+                <div className="card bg-dark ">
                   <img
                     src={image1}
                     className=""
                     style={{ objectFit: "contain" }}
                   />
                 </div>
-                <div className="card bg-dark m-3">
+                <div className="card bg-dark ">
                   <img
                     src={image2}
                     className=""
@@ -116,15 +116,15 @@ function Portfolio2() {
                 </div>
               </div>
 
-              <div className="card-group m-3">
-                <div className="card bg-dark m-3">
+              <div className="card-group ">
+                <div className="card bg-dark ">
                   <img
                     src={image3}
                     className=""
                     style={{ objectFit: "contain" }}
                   />
                 </div>
-                <div className="card bg-dark m-3">
+                <div className="card bg-dark ">
                   <img
                     src={image4}
                     className=""
@@ -133,15 +133,15 @@ function Portfolio2() {
                 </div>
               </div>
 
-              <div className="card-group m-3">
-                <div className="card bg-dark m-3">
+              <div className="card-group ">
+                <div className="card bg-dark ">
                   <img
                     src={image5}
                     className=""
                     style={{ objectFit: "contain" }}
                   />
                 </div>
-                <div className="card bg-dark m-3">
+                <div className="card bg-dark ">
                   <img
                     src={image6}
                     className=""
@@ -150,15 +150,15 @@ function Portfolio2() {
                 </div>
               </div>
 
-              <div className="card-group m-3">
-                <div className="card bg-dark m-3">
+              <div className="card-group ">
+                <div className="card bg-dark ">
                   <img
                     src={image7}
                     className=""
                     style={{ objectFit: "contain" }}
                   />
                 </div>
-                <div className="card bg-dark m-3">
+                <div className="card bg-dark ">
                   <img
                     src={image8}
                     className=""
@@ -166,15 +166,15 @@ function Portfolio2() {
                   />
                 </div>
               </div>
-              <div className="card-group m-3">
-                <div className="card bg-dark m-3">
+              <div className="card-group ">
+                <div className="card bg-dark ">
                   <img
                     src={image9}
                     className=""
                     style={{ objectFit: "contain" }}
                   />
                 </div>
-                <div className="card bg-dark m-3">
+                <div className="card bg-dark ">
                   <img
                     src={image10}
                     className=""

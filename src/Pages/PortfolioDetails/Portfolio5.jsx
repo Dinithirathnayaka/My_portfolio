@@ -96,15 +96,15 @@ function Portfolio5() {
                 </p>
               </div>
 
-              <div className="card-group m-3">
-                <div className="card bg-dark m-3">
+              <div className="card-group ">
+                <div className="card bg-dark ">
                   <img
                     src={image1}
                     className=""
                     style={{ objectFit: "contain" }}
                   />
                 </div>
-                <div className="card bg-dark m-3">
+                <div className="card bg-dark ">
                   <img
                     src={image2}
                     className=""
@@ -113,15 +113,15 @@ function Portfolio5() {
                 </div>
               </div>
 
-              <div className="card-group m-3">
-                <div className="card bg-dark m-3">
+              <div className="card-group ">
+                <div className="card bg-dark ">
                   <img
                     src={image3}
                     className=""
                     style={{ objectFit: "contain" }}
                   />
                 </div>
-                <div className="card bg-dark m-3">
+                <div className="card bg-dark ">
                   <img
                     src={image4}
                     className=""
@@ -130,15 +130,15 @@ function Portfolio5() {
                 </div>
               </div>
 
-              <div className="card-group m-3">
-                <div className="card bg-dark m-3">
+              <div className="card-group ">
+                <div className="card bg-dark ">
                   <img
                     src={image5}
                     className=""
                     style={{ objectFit: "contain" }}
                   />
                 </div>
-                <div className="card bg-dark m-3">
+                <div className="card bg-dark ">
                   <img
                     src={image6}
                     className=""
@@ -147,8 +147,8 @@ function Portfolio5() {
                 </div>
               </div>
 
-              <div className="card-group m-3">
-                <div className="card bg-dark m-3">
+              <div className="card-group ">
+                <div className="card bg-dark ">
                   <img
                     src={image7}
                     className="h"
@@ -156,7 +156,7 @@ function Portfolio5() {
                   />
                 </div>
                 <div
-                  className="card  m-3"
+                  className="card  "
                   style={{ background: "transparent" }}
                 ></div>
               </div>

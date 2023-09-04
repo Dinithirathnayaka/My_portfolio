@@ -89,8 +89,8 @@ function Portfolio3() {
                 </p>
               </div>
 
-              <div className="card-group m-3">
-                <div className="card bg-dark m-3">
+              <div className="card-group ">
+                <div className="card bg-dark ">
                   <img
                     src={image1}
                     className=""
@@ -98,7 +98,7 @@ function Portfolio3() {
                   />
                 </div>
                 <div
-                  className="card  m-3"
+                  className="card  "
                   style={{ background: "transparent" }}
                 ></div>
               </div>

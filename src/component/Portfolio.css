@@ -133,6 +133,7 @@
 
 .card {
   border: 0.5px solid #a9a9a91c !important;
+  margin: 30px !important;
 }
 
 /* .card img {
@@ -163,4 +164,11 @@
 .subport .middlesub:hover img {
   width: 340px;
   height: 340px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
 }
