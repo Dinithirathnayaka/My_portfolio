@@ -177,7 +177,7 @@ function LeftGridNew() {
           <div className="footer-pro menu__item">
             <div className="pro-icon">
               <a
-                href="https://www.linkedin.com/in/dinithi-rathnayaka-887126202/"
+                href="https://www.linkedin.com/in/dinithi-rathnayake-887126202/"
                 style={{ color: "darkgrey" }}
               >
                 <FaLinkedin className="iconf" />

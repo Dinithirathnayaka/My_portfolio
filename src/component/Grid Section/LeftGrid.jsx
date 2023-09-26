@@ -182,14 +182,14 @@ function LeftGrid() {
         >
           <div className="pro-icon">
             <a
-              href="https://www.linkedin.com/in/dinithi-rathnayaka-887126202/"
+              href="https://www.linkedin.com/in/dinithi-rathnayake-887126202/"
               style={{ color: "darkgrey" }}
             >
               <FaLinkedin className="iconf" />
             </a>
 
             <a
-              href="https://www.linkedin.com/in/dinithi-rathnayaka-887126202/"
+              href="https://www.facebook.com/dinithi.rathnayake.942?mibextid=ZbWKwL"
               style={{ color: "darkgrey" }}
             >
               <FaFacebook className="iconf" />
