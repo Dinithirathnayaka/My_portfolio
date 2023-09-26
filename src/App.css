@@ -143,7 +143,14 @@ body {
 
 .single-chart {
   width: 40%;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.single-chart img {
+  display: block;
+  margin: 0 auto;
 }
 
 .circular-chart {

@@ -1,11 +1,13 @@
 import React from "react";
 import faceimg from "../../images/face-6.jpg";
-import html from "../../images/html-5.png";
-import css from "../../images/css-3.png";
-import Boostrap from "../../images/boostrap.png";
-import javascript from "../../images/java-script.png";
-import react from "../../images/library.png";
-import laravel from "../../images/laravel.png";
+import html from "../../images/icons8-html-240.png";
+import css from "../../images/icons8-css-240.png";
+import Boostrap from "../../images/icons8-bootstrap-240.png";
+import javascript from "../../images/icons8-javascript-240.png";
+import react from "../../images/icons8-react-js-200.png";
+import laravel from "../../images/icons8-laravel-96.png";
+import tailwind from "../../images/icons8-tailwind-css-240.png";
+import nextjs from "../../images/nextjs.256x256.png";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -51,61 +53,85 @@ function LeftGridNew() {
               </div>
             </div>
             <hr style={{ color: "darkgrey" }} />
-            <div>
-              <div class="flex-wrapper">
-                <div class="single-chart">
-                  <img src={html} alt="" style={{ width: "70px" }} />
-                </div>
-
-                <div class="single-chart">
-                  <img src={css} alt="" style={{ width: "70px" }} />
-                </div>
-
-                <div class="single-chart">
-                  <img
-                    src={javascript}
-                    alt=""
-                    style={{ width: "60px", marginTop: "15px" }}
-                  />
-                </div>
+            <div class="flex-wrapper">
+              <div class="single-chart">
+                <img src={html} alt="" style={{ width: "70px" }} />
+                <p
+                  style={{ color: "#fff", marginRight: "" }}
+                  className="text-center"
+                >
+                  HTML
+                </p>
               </div>
-
-              <div className="name">
-                <p style={{ color: "#fff", marginLeft: "" }}>HTML</p>
-                <p style={{ color: "#fff", marginRight: "" }}>CSS</p>
-                <p style={{ color: "#fff", marginLeft: "-30px" }}>
+              <div class="single-chart">
+                <img src={css} alt="" style={{ width: "70px" }} />
+                <p
+                  style={{ color: "#fff", marginRight: "" }}
+                  className="text-center"
+                >
+                  CSS
+                </p>
+              </div>
+              <div class="single-chart">
+                <img src={javascript} alt="" style={{ width: "70px" }} />
+                <p
+                  style={{ color: "#fff", marginRight: "" }}
+                  className="text-center"
+                >
                   Java Script
                 </p>
-
-                {/* <p style={{ color: "#fff" }}>Spanish</p> */}
               </div>
             </div>
 
-            <div>
-              <div class="flex-wrapper">
-                <div class="single-chart">
-                  <img src={react} alt="" style={{ width: "70px" }} />
-                </div>
+            <div class="flex-wrapper">
+              <div class="single-chart">
+                <img src={react} alt="" style={{ width: "70px" }} />
+                <p
+                  style={{ color: "#fff", marginRight: "" }}
+                  className="text-center"
+                >
+                  React.js
+                </p>
+              </div>
+              <div class="single-chart">
+                <img src={nextjs} alt="" style={{ width: "70px" }} />
+                <p
+                  style={{ color: "#fff", marginRight: "" }}
+                  className="text-center"
+                >
+                  Next.js
+                </p>
+              </div>
+              <div class="single-chart">
+                <img src={Boostrap} alt="" style={{ width: "70px" }} />
+                <p
+                  style={{ color: "#fff", marginRight: "" }}
+                  className="text-center"
+                >
+                  Bootstrap
+                </p>
+              </div>
+            </div>
 
-                <div class="single-chart">
-                  <img src={Boostrap} alt="" style={{ width: "100px" }} />
-                </div>
-
-                <div class="single-chart" style={{ marginLeft: "50px" }}>
-                  <img
-                    src={laravel}
-                    alt=""
-                    style={{ width: "60px", marginTop: "10px" }}
-                  />
-                </div>
+            <div class="flex-wrapper">
+              <div class="single-chart">
+                <img src={tailwind} alt="" style={{ width: "70px" }} />
+                <p
+                  style={{ color: "#fff", marginRight: "" }}
+                  className="text-center"
+                >
+                  Tailwind CSS
+                </p>
               </div>
 
-              <div className="name">
-                <p style={{ color: "#fff", marginLeft: "" }}>React.js</p>
-                <p style={{ color: "#fff", marginLeft: "-50px" }}>Bootstrap</p>
-                <p style={{ color: "#fff", marginLeft: "-30px" }}>Laravel</p>
-
-                {/* <p style={{ color: "#fff" }}>Spanish</p> */}
+              <div class="single-chart">
+                <img src={laravel} alt="" style={{ width: "70px" }} />
+                <p
+                  style={{ color: "#fff", marginRight: "" }}
+                  className="text-center"
+                >
+                  Laravel
+                </p>
               </div>
             </div>
 
@@ -114,8 +140,8 @@ function LeftGridNew() {
               <p className="small">
                 {" "}
                 <FaCheck style={{ color: " #FFC107", marginRight: "10px" }} />
-                Frontend Services(Html,CSS,Bootstrap,Java Script,React.js)
-                Knowledge
+                Frontend Services(Html,CSS,Bootstrap,Tailwind CSS,Java
+                Script,React.js) Knowledge
               </p>
               <p className="small">
                 {" "}
